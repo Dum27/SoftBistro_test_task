@@ -6,7 +6,6 @@ public class Main
         String str = "tGgczcatbziaba";
         System.out.println(getSingleSymbol(str));
     }
-
     public static char getSingleSymbol(String input)
     {
         int count = 0;
@@ -28,3 +27,9 @@ public class Main
         return 0;
     }
 }
+/**The complexity of the algorithm is O(N2).
+ * (O(N2) represents an algorithm whose performance is directly proportional to
+ * the square of the size of the input data set. This is common with algorithms that
+ * involve nested iterations over the data set. Deeper nested iterations will result
+ * in O(N3), O(N4) etc.)
+ **/
